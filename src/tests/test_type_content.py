@@ -11,7 +11,6 @@ sys.path.append(orm_dir_path)
 from ormWP.models.type_content import Typecontent
 
 # Conectarse a la base de datos de prueba
-connect('testdb', host='mongomock://localhost')
 
 class TestTypeContent(unittest.TestCase):
 

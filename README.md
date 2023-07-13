@@ -1,8 +1,7 @@
-# Gap Analysis ORM
+# EWP Models
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/CIAT-DAPA/spcat_orm) ![](https://img.shields.io/github/v/tag/CIAT-DAPA/spcat_orm)
 
-This is an ORM (Object-Relational Mapping) that uses the Mongoengine library to interact with a MongoDB database. This ORM has been designed to handle information related to accessions, crop groups, crops and countries.
+It is an ORM (Object-Relational Mapping) that uses the Mongoengine library to interact with a MongoDB database. This ORM has been designed to handle information related to administrative levels, water points, water point content and content types.
 
 ## Features
 
@@ -11,7 +10,7 @@ This is an ORM (Object-Relational Mapping) that uses the Mongoengine library to 
 
 ## Getting Started
 
-To use this ORM, it is necessary to have an instance of MongoDB running.
+To use this Models, it is necessary to have an instance of MongoDB running.
 
 ### Prerequisites
 
