@@ -14,7 +14,6 @@ from ormWP.models.adm2 import Adm2
 from ormWP.models.adm3 import Adm3
 
 # Conectarse a la base de datos de prueba
-connect('testdb', host='mongomock://localhost')
 
 class TestWatershed(unittest.TestCase):
 
