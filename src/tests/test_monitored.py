@@ -23,6 +23,7 @@ class TestMonitored(unittest.TestCase):
 
     def setUp(self):
  # Desconectarse de cualquier conexión existente
+        disconnect()
         connect('test_water_points', host='mongomock://localhost')
 
         # Mock el objeto Waterpoint

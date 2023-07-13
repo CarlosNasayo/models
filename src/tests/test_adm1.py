@@ -13,6 +13,7 @@ from ormWP.models.adm1 import Adm1
 class Testadm1(unittest.TestCase):
 
     def setUp(self):
+        disconnect()
         connect('test_water_points', host='mongomock://localhost')
         self.adm1 = Adm1(
             name='zona prueba',

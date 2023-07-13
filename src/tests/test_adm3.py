@@ -18,6 +18,7 @@ from ormWP.models.adm3 import Adm3
 class TestAdm3(unittest.TestCase):
 
     def setUp(self):
+        disconnect()
         connect('test_water_points', host='mongomock://localhost')
         
         # Crea un objeto Adm1 de prueba
