@@ -80,7 +80,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: ORM
-        path: releaseModel.zip
+        path: releaseModels.zip
     # Generate Tagname
     - name: Generate Tagname for release
       id: taggerDryRun
