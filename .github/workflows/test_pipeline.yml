@@ -44,7 +44,7 @@ jobs:
 # ------- START MERGE PROCCESS -------- #
 
   MergeMainModels:
-    needs: [Models]
+    needs: [TestModels]
     name: Merge Stage with Main
     permissions: write-all
     runs-on: ubuntu-latest
@@ -106,7 +106,7 @@ jobs:
         draft: false
         prerelease: false
     # Upload Assets to release
-    - name: Upload Release Asset ORM
+    - name: Upload Release Asset Model
       id: upload-orm-release-asset 
       uses: actions/upload-release-asset@v1
       env:
